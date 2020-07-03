@@ -40,7 +40,16 @@ function App(props) {
           <li>Simple ToDo using React & Redux</li>
           <li>Click on text to mark it as complete</li>
           <li>Todos are saved and synced ;)</li>
-          <li> <a href="https://www.github.com" target="_blank" rel="noopener noreferrer" >GitHub</a> </li>
+          <li>
+            {" "}
+            <a
+              href="https://github.com/dalalRohit/react-redux-todo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>{" "}
+          </li>
         </ol>
       </div>
       <div className="input">
